@@ -30,7 +30,7 @@ If you want to use this as systemd unit, copy the software to a directory such a
 # chmod +x /opt/mqtt_logger.py
 ```
 
-Edit [`mqtt_logger.service`] and specify a valid configuration, e.g.:
+Edit [`mqtt_logger.service`](mqtt_logger.service) and specify a valid configuration, e.g.:
 
 ```ini
 ...
