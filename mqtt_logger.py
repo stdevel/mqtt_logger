@@ -141,7 +141,7 @@ def load_configuration(options):
     """
     try:
         with open(options.configuration[0]) as file:
-            conf = yaml.full_load(file)
+            conf = yaml.load(file)
             LOGGER.debug("Configuration file content: %s", conf)
             if verify_configuration(conf):
                 return conf
