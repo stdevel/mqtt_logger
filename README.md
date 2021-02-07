@@ -14,7 +14,7 @@ The following Python modules are required:
 Install required modules - e.g. using your distribtion package manger:
 
 ```shell
-# apt-get install python3-paho-mqtt
+# apt-get install python3-yaml python3-paho-mqtt
 ```
 
 Alternatively you can use `pip` instead:
