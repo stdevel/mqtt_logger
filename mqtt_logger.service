@@ -1,0 +1,8 @@
+[Unit]
+Description=mqtt_logger service file
+
+[Service]
+ExecStart=/opt/mqtt_logger.py -c <config_file>
+
+[Install]
+WantedBy=multi-user.target
